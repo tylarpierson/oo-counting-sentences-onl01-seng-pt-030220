@@ -29,6 +29,5 @@ class String
   def count_sentences
     sentences = self.split("."), self.split("?"), self.split("!")
     sentences.count 
-    return 0 if sentences.count == 0 
   end
 end
